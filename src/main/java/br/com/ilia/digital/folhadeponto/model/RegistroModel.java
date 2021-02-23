@@ -63,8 +63,8 @@ public class RegistroModel {
 		return registro1;
 	}
 
-	public void setRegistro1(LocalTime registro1) {
-		this.registro1 = registro1;
+	public void setRegistro1(LocalTime string) {
+		this.registro1 = string;
 	}
 
 	public LocalTime getRegistro2() {
@@ -99,7 +99,7 @@ public class RegistroModel {
 		this.momentoModel = momentoModel;
 	}
 	
-	protected RegistroModel() {
+	public RegistroModel() {
 		
 	}
 

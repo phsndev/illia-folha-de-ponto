@@ -1,25 +1,27 @@
 package br.com.ilia.digital.folhadeponto.dto;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.List;
 
 public class RegistroDTO {
-	public String dia;
-	public List<String> horarios;
-	public RegistroDTO(String dia, List<String> horarios) {
+	public LocalDate dia;
+	public List<LocalTime> horarios;
+	public RegistroDTO(LocalDate dia, List<LocalTime> horarios) {
 		super();
 		this.dia = dia;
 		this.horarios = horarios;
 	}
-	public String getDia() {
+	public LocalDate getDia() {
 		return dia;
 	}
-	public List<String> getHorarios() {
+	public List<LocalTime> getHorarios() {
 		return horarios;
 	}
-	public void setDia(String dia) {
+	public void setDia(LocalDate dia) {
 		this.dia = dia;
 	}
-	public void setHorarios(List<String> horarios) {
+	public void setHorarios(List<LocalTime> horarios) {
 		this.horarios = horarios;
 	}
 }
