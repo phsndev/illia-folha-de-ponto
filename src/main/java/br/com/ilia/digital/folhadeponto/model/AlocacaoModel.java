@@ -1,4 +1,4 @@
-package br.com.ilia.digital.folhadeponto.repository;
+package br.com.ilia.digital.folhadeponto.model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
